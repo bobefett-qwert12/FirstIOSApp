@@ -12,6 +12,7 @@
 		8BF59AC5216CE8EC003371B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF59AC3216CE8EC003371B6 /* Main.storyboard */; };
 		8BF59AC7216CE8ED003371B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF59AC6216CE8ED003371B6 /* Assets.xcassets */; };
 		8BF59ACA216CE8ED003371B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF59AC8216CE8ED003371B6 /* LaunchScreen.storyboard */; };
+		8BF59AD6216CF5D3003371B6 /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF59AD5216CF5D3003371B6 /* ColorTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8BF59AC6216CE8ED003371B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF59AC9216CE8ED003371B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF59ACB216CE8ED003371B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF59AD5216CF5D3003371B6 /* ColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8BF59ABE216CE8EC003371B6 /* FirstIOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				8BF59AD4216CF561003371B6 /* Model */,
 				8BF59AD1216CEC88003371B6 /* Resources */,
 				8BF59AD3216CF0B3003371B6 /* Controller */,
 				8BF59AD2216CF089003371B6 /* View */,
@@ -86,6 +89,14 @@
 				8BF59AC1216CE8EC003371B6 /* ColorChangeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BF59AD4216CF561003371B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BF59AD5216CF5D3003371B6 /* ColorTool.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			files = (
 				8BF59AC2216CE8EC003371B6 /* ColorChangeViewController.swift in Sources */,
 				8BF59AC0216CE8EC003371B6 /* AppDelegate.swift in Sources */,
+				8BF59AD6216CF5D3003371B6 /* ColorTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
